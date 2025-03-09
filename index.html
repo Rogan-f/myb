@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia das Mulheres</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff8dc;
+            text-align: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+        .bouquet {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://i.postimg.cc/ydMwdvLC/buque-de-girassois-em-pixel.jpg'); /* Novo link de girassóis */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            animation: float 3s infinite ease-in-out;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        h1 {
+            font-size: 24px;
+            color: #d2691e;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bouquet"></div>
+    <h1>Feliz Dia das Mulheres, my B...<br> E pra você não dizer que esse ano não teve flores, tá aí!<br> Eu amo você, pra semprão.</h1>
+</body>
+</html>
